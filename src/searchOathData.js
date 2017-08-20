@@ -1,7 +1,7 @@
 const oathDb = {
     Arvin: {
         image: require('./assets/arvin.png'),
-        oath: ['Workout every night']
+        oath: ['Workout every night', 'I hate reflection']
     },
     Cloe: {
         image: require('./assets/cloe.jpg'),
@@ -24,7 +24,7 @@ const oathDb = {
     },
     'Tim Armstrong': {
         image: require('./assets/tim-armstrong.jpg'),
-        oath: ['Give up!']
+        oath: ['Give up!', 'Take private jets']
     },
     'Tsai Ing-wen': {
         image: require('./assets/tsai-ing-wen.jpg'),
