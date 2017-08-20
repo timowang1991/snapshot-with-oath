@@ -28,6 +28,7 @@ body {
 .app-title {
   font-size: 60px;
   font-family: "Helvetica Neue Light";
+  font-weight: lighter;
 }
 
 #app-search-title {
