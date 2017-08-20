@@ -48,6 +48,7 @@
 #search-result-list-wrapper {
   list-style-type: none;
   text-align: left;
+  padding-left: 0;
 }
 
 .list-item-wrapper {
@@ -71,6 +72,8 @@
   height: 150px;
   width: 150px;
   border-radius: 46%;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .person-oath-list-wrapper {

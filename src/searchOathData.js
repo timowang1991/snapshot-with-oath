@@ -1,16 +1,36 @@
 const oathDb = {
-    Timo: {
-        image: require('./assets/oath_timowang_01_2043.jpg'),
-        oath: ["Listen to TA", "Must Be Crazy", "Go to Google!"]
+    Arvin: {
+        image: require('./assets/arvin.png'),
+        oath: ['Workout every night']
     },
-    "Tim Armstrong": {
-        oath: ["Never give up  —  2016"]
+    Cloe: {
+        image: require('./assets/cloe.jpg'),
+        oath: ['Shut Timo up']
+    },
+    John: {
+        image: require('./assets/john.png'),
+        oath: ['Why so serious?']
+    },
+    Kate: {
+        oath: ['Work from remote']
+    },
+    Sonys: {
+        image: require('./assets/sonys.jpg'),
+        oath: ['Youcard is MINE!']
+    },
+    Timo: {
+        image: require('./assets/timo.jpg'),
+        oath: ['Listen to TA', 'Must Be Crazy']
+    },
+    'Tim Armstrong': {
+        image: require('./assets/tim-armstrong.jpg'),
+        oath: ['Give up!']
     }
 };
 
 export default (query) => {
     if (!query) {
-        return [];
+        return Object.keys(oathDb).map((name) => ({ name, info: oathDb[name] }));
     }
     const names = Object.keys(oathDb).filter((personName) =>
         personName.toLowerCase().indexOf(query) === 0
