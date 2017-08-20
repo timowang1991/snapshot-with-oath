@@ -25,6 +25,10 @@ const oathDb = {
     'Tim Armstrong': {
         image: require('./assets/tim-armstrong.jpg'),
         oath: ['Give up!']
+    },
+    'Tsai Ing-wen': {
+        image: require('./assets/tsai-ing-wen.jpg'),
+        oath: ['No more blackouts']
     }
 };
 
