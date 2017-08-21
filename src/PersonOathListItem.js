@@ -15,7 +15,7 @@ export default function (props) {
     } = props;
 
     return (
-        <div className="list-item-wrapper">
+        <li className="list-item-wrapper">
             <div
                 className="list-item-image-wrapper"    
             >
@@ -43,6 +43,6 @@ export default function (props) {
                     )
                 }
             </ul>
-        </div>
+        </li>
     );
 }
