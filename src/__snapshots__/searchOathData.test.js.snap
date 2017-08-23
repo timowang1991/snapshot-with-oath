@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return name starting with T 1`] = `
+Array [
+  Object {
+    "info": Object {
+      "image": "timo.jpg",
+      "oath": Array [
+        "Listen to TA",
+        "Must Be Crazy",
+      ],
+    },
+    "name": "Timo",
+  },
+  Object {
+    "info": Object {
+      "image": "tim-armstrong.jpg",
+      "oath": Array [
+        "Give up!",
+        "Take private jets",
+      ],
+    },
+    "name": "Tim Armstrong",
+  },
+  Object {
+    "info": Object {
+      "image": "tsai-ing-wen.jpg",
+      "oath": Array [
+        "No more blackouts",
+      ],
+    },
+    "name": "Tsai Ing-wen",
+  },
+]
+`;

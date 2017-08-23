@@ -1,19 +1,46 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { render } from 'enzyme';
+import enzymeSerializer from 'enzyme-to-json/serializer';
 import App from './App';
 
-it('renders div without crashing', () => {
-  const div = renderer.create(
-    <div className="12345" />
-  );
-  
-  expect(div).toMatchSnapshot();
+expect.addSnapshotSerializer(enzymeSerializer);
+
+it('renders app with react-test-renderer', () => {
+    const app = renderer.create(
+        <App />
+    );
+
+    expect(app).toMatchSnapshot();
 });
 
-it('renders app without crashing', () => {
-  const app = renderer.create(
-    <App />
-  );
+it('renders app with render enzyme', () => {
+    const app = render(
+        <App />
+    );
 
-  expect(app).toMatchSnapshot();
+    expect(app).toMatchSnapshot();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// it('renders app with shallow enzyme', () => {
+//     const app = shallow(
+//         <App />
+//     );
+
+//     expect(app).toMatchSnapshot();
+// });

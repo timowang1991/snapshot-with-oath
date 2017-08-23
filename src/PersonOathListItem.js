@@ -1,7 +1,7 @@
 import React from 'react';
 import headIcon from './assets/head-icon-6519.png'
 
-export default function (props) {
+function PersonOathListItem (props) {
     if (!props) {
         return null;
     }
@@ -46,3 +46,7 @@ export default function (props) {
         </li>
     );
 }
+
+PersonOathListItem.displayName = 'PersonOathListItem';
+
+export default PersonOathListItem;

@@ -7,3 +7,8 @@ it('should sum 2 numbers', () => {
 
     expect(result).toBe(3);
 });
+
+// file: sum.test.js
+it('should sum 2 numbers snapshot', () => {
+    expect(sum(1, 2)).toMatchSnapshot();
+});

@@ -33,11 +33,12 @@ const oathDb = {
 };
 
 export default (query) => {
-    if (!query) {
+    if (!query || typeof query != 'string') {
         return Object.keys(oathDb).map((name) => ({ name, info: oathDb[name] }));
     }
+    const lowerCaseQuery = query.toLowerCase();
     const names = Object.keys(oathDb).filter((personName) =>
-        personName.toLowerCase().indexOf(query) === 0
+        personName.toLowerCase().indexOf(lowerCaseQuery) === 0
     );
     return names.map((name) => ({ name, info: oathDb[name] }));
 }

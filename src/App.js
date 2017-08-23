@@ -14,7 +14,7 @@ class App extends Component {
 
     getSearchResults = (e) => {
         this.setState({
-            data: searchOathData(e.target.value.toLowerCase())
+            data: searchOathData(e.target.value)
         });
     }
 

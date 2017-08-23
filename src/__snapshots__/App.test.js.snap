@@ -1,35 +1,625 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders app without crashing 1`] = `
+exports[`renders app with react-test-renderer 1`] = `
 <div
   className="App"
 >
   <div
-    className="App-header"
+    className="app-title"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <h2>
-      Welcome to React
-    </h2>
+    <span
+      id="app-search-title"
+    >
+      Search Your
+    </span>
+    <span
+      id="oath-title"
+    >
+      Oath
+    </span>
+    <span
+      id="colon-title"
+    >
+      :
+    </span>
   </div>
-  <p
-    className="App-intro"
+  <span
+    className="input-group input-group-lg"
+    id="search-bar"
   >
-    To get started, edit 
-    <code>
-      src/App.js
-    </code>
-     and save to reload.
-  </p>
+    <span
+      className="input-group-addon"
+    >
+      <span
+        className="glyphicon glyphicon-glyphicon glyphicon-search"
+      />
+    </span>
+    <input
+      className="form-control"
+      id={undefined}
+      onChange={[Function]}
+      placeholder="Search by name..."
+      type="text"
+    />
+  </span>
+  <ul
+    id="search-result-list-wrapper"
+  >
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="arvin.png"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          Arvin
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Workout every night
+            <br />
+          </blockquote>
+        </li>
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            I hate reflection
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="cloe.jpg"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          Cloe
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Shut Timo up
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="john.png"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          John
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Why so serious?
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="head-icon-6519.png"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          Kate
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Work from remote
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="sonys.jpg"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          Sonys
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Youcard is MINE!
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="timo.jpg"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          Timo
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Listen to TA
+            <br />
+          </blockquote>
+        </li>
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Must Be Crazy
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="tim-armstrong.jpg"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          Tim Armstrong
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Give up!
+            <br />
+          </blockquote>
+        </li>
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Take private jets
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
+          src="tsai-ing-wen.jpg"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          Tsai Ing-wen
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            No more blackouts
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </div>
 `;
 
-exports[`renders div without crashing 1`] = `
+exports[`renders app with render enzyme 1`] = `
 <div
-  className="12345"
-/>
+  class="App"
+>
+  <div
+    class="app-title"
+  >
+    <span
+      id="app-search-title"
+    >
+      Search Your
+    </span>
+    <span
+      id="oath-title"
+    >
+      Oath
+    </span>
+    <span
+      id="colon-title"
+    >
+      :
+    </span>
+  </div>
+  <span
+    class="input-group input-group-lg"
+    id="search-bar"
+  >
+    <span
+      class="input-group-addon"
+    >
+      <span
+        class="glyphicon glyphicon-glyphicon glyphicon-search"
+      />
+    </span>
+    <input
+      class="form-control"
+      placeholder="Search by name..."
+      type="text"
+    />
+  </span>
+  <ul
+    id="search-result-list-wrapper"
+  >
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="arvin.png"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          Arvin
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Workout every night
+            <br />
+          </blockquote>
+        </li>
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            I hate reflection
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="cloe.jpg"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          Cloe
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Shut Timo up
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="john.png"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          John
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Why so serious?
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="head-icon-6519.png"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          Kate
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Work from remote
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="sonys.jpg"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          Sonys
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Youcard is MINE!
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="timo.jpg"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          Timo
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Listen to TA
+            <br />
+          </blockquote>
+        </li>
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Must Be Crazy
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="tim-armstrong.jpg"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          Tim Armstrong
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Give up!
+            <br />
+          </blockquote>
+        </li>
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Take private jets
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
+          src="tsai-ing-wen.jpg"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          Tsai Ing-wen
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            No more blackouts
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
 `;
