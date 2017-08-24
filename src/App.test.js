@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { render } from 'enzyme';
+import { render, shallow } from 'enzyme';
 import enzymeSerializer from 'enzyme-to-json/serializer';
 import App from './App';
 
@@ -22,25 +22,10 @@ it('renders app with render enzyme', () => {
     expect(app).toMatchSnapshot();
 });
 
+it('renders app with shallow enzyme', () => {
+    const app = shallow(
+        <App />
+    );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// it('renders app with shallow enzyme', () => {
-//     const app = shallow(
-//         <App />
-//     );
-
-//     expect(app).toMatchSnapshot();
-// });
+    expect(app).toMatchSnapshot();
+});

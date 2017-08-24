@@ -14,13 +14,17 @@ const oathDb = {
     Kate: {
         oath: ['Work from remote']
     },
+    'KP': {
+        image: require('./assets/kp.jpg'),
+        oath: ['Banish all bast**ds']
+    },
     Sonys: {
         image: require('./assets/sonys.jpg'),
         oath: ['Youcard is MINE!']
     },
     Timo: {
         image: require('./assets/timo.jpg'),
-        oath: ['Listen to TA', 'Must Be Crazy']
+        oath: ['Listen to TA', 'Stop global warming']
     },
     'Tim Armstrong': {
         image: require('./assets/tim-armstrong.jpg'),

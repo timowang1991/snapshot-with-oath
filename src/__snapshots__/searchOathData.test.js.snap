@@ -7,7 +7,7 @@ Array [
       "image": "timo.jpg",
       "oath": Array [
         "Listen to TA",
-        "Must Be Crazy",
+        "Stop global warming",
       ],
     },
     "name": "Timo",
@@ -30,6 +30,80 @@ Array [
       ],
     },
     "name": "Tsai Ing-wen",
+  },
+]
+`;
+
+exports[`should return name with sequences of Timo 1`] = `
+Array [
+  Object {
+    "info": Object {
+      "image": "timo.jpg",
+      "oath": Array [
+        "Listen to TA",
+        "Stop global warming",
+      ],
+    },
+    "name": "Timo",
+  },
+  Object {
+    "info": Object {
+      "image": "tim-armstrong.jpg",
+      "oath": Array [
+        "Give up!",
+        "Take private jets",
+      ],
+    },
+    "name": "Tim Armstrong",
+  },
+  Object {
+    "info": Object {
+      "image": "tsai-ing-wen.jpg",
+      "oath": Array [
+        "No more blackouts",
+      ],
+    },
+    "name": "Tsai Ing-wen",
+  },
+]
+`;
+
+exports[`should return name with sequences of Timo 2`] = `
+Array [
+  Object {
+    "info": Object {
+      "image": "timo.jpg",
+      "oath": Array [
+        "Listen to TA",
+        "Stop global warming",
+      ],
+    },
+    "name": "Timo",
+  },
+  Object {
+    "info": Object {
+      "image": "tim-armstrong.jpg",
+      "oath": Array [
+        "Give up!",
+        "Take private jets",
+      ],
+    },
+    "name": "Tim Armstrong",
+  },
+]
+`;
+
+exports[`should return name with sequences of Timo 3`] = `
+Array [
+  Object {
+    "info": Object {
+      "image": "timo.jpg",
+      "oath": Array [
+        "Listen to TA",
+        "Stop global warming",
+      ],
+    },
+    "name": "Timo",
   },
 ]
 `;

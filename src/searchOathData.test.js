@@ -5,3 +5,11 @@ it('should return name starting with T', () => {
     
     expect(oath).toMatchSnapshot();
 });
+
+it('should return name with sequences of Timo', () => {
+    ['T', 'Ti', 'Timo'].forEach((query) => {
+        const oath = searchOathData(query);
+
+        expect(oath).toMatchSnapshot();
+    });
+});

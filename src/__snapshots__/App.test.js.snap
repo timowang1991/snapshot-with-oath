@@ -182,6 +182,36 @@ exports[`renders app with react-test-renderer 1`] = `
         <img
           alt=""
           className="list-item-image"
+          src="kp.jpg"
+        />
+        <div
+          className="person-oath-list-item-name"
+        >
+          KP
+        </div>
+      </div>
+      <ul
+        className="person-oath-list-wrapper"
+      >
+        <li
+          className="person-oath-list-item"
+        >
+          <blockquote>
+            Banish all bast**ds
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="list-item-wrapper"
+    >
+      <div
+        className="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          className="list-item-image"
           src="sonys.jpg"
         />
         <div
@@ -235,7 +265,7 @@ exports[`renders app with react-test-renderer 1`] = `
           className="person-oath-list-item"
         >
           <blockquote>
-            Must Be Crazy
+            Stop global warming
             <br />
           </blockquote>
         </li>
@@ -493,6 +523,36 @@ exports[`renders app with render enzyme 1`] = `
         <img
           alt=""
           class="list-item-image"
+          src="kp.jpg"
+        />
+        <div
+          class="person-oath-list-item-name"
+        >
+          KP
+        </div>
+      </div>
+      <ul
+        class="person-oath-list-wrapper"
+      >
+        <li
+          class="person-oath-list-item"
+        >
+          <blockquote>
+            Banish all bast**ds
+            <br />
+          </blockquote>
+        </li>
+      </ul>
+    </li>
+    <li
+      class="list-item-wrapper"
+    >
+      <div
+        class="list-item-image-wrapper"
+      >
+        <img
+          alt=""
+          class="list-item-image"
           src="sonys.jpg"
         />
         <div
@@ -546,7 +606,7 @@ exports[`renders app with render enzyme 1`] = `
           class="person-oath-list-item"
         >
           <blockquote>
-            Must Be Crazy
+            Stop global warming
             <br />
           </blockquote>
         </li>
@@ -620,6 +680,158 @@ exports[`renders app with render enzyme 1`] = `
         </li>
       </ul>
     </li>
+  </ul>
+</div>
+`;
+
+exports[`renders app with shallow enzyme 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="app-title"
+  >
+    <span
+      id="app-search-title"
+    >
+      Search Your
+    </span>
+    <span
+      id="oath-title"
+    >
+      Oath
+    </span>
+    <span
+      id="colon-title"
+    >
+      :
+    </span>
+  </div>
+  <InputGroup
+    bsClass="input-group"
+    bsSize="large"
+    id="search-bar"
+  >
+    <InputGroupAddon
+      bsClass="input-group-addon"
+    >
+      <Glyphicon
+        bsClass="glyphicon"
+        glyph="glyphicon glyphicon-search"
+      />
+    </InputGroupAddon>
+    <FormControl
+      bsClass="form-control"
+      componentClass="input"
+      onChange={[Function]}
+      placeholder="Search by name..."
+      type="text"
+    />
+  </InputGroup>
+  <ul
+    id="search-result-list-wrapper"
+  >
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "arvin.png",
+          "oath": Array [
+            "Workout every night",
+            "I hate reflection",
+          ],
+        }
+      }
+      name="Arvin"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "cloe.jpg",
+          "oath": Array [
+            "Shut Timo up",
+          ],
+        }
+      }
+      name="Cloe"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "john.png",
+          "oath": Array [
+            "Why so serious?",
+          ],
+        }
+      }
+      name="John"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "oath": Array [
+            "Work from remote",
+          ],
+        }
+      }
+      name="Kate"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "kp.jpg",
+          "oath": Array [
+            "Banish all bast**ds",
+          ],
+        }
+      }
+      name="KP"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "sonys.jpg",
+          "oath": Array [
+            "Youcard is MINE!",
+          ],
+        }
+      }
+      name="Sonys"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "timo.jpg",
+          "oath": Array [
+            "Listen to TA",
+            "Stop global warming",
+          ],
+        }
+      }
+      name="Timo"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "tim-armstrong.jpg",
+          "oath": Array [
+            "Give up!",
+            "Take private jets",
+          ],
+        }
+      }
+      name="Tim Armstrong"
+    />
+    <PersonOathListItem
+      info={
+        Object {
+          "image": "tsai-ing-wen.jpg",
+          "oath": Array [
+            "No more blackouts",
+          ],
+        }
+      }
+      name="Tsai Ing-wen"
+    />
   </ul>
 </div>
 `;

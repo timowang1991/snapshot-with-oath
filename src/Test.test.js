@@ -6,7 +6,7 @@ expect.addSnapshotSerializer(enzymeSerializer);
 
 it('should render react div DOM', () => {
     const div = render(
-        <div className="div-class">
+        <div className="div-class" style={{ color: 'white'}}>
             <span className="span-class">
                 I love Oath
             </span>

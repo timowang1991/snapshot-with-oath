@@ -3,6 +3,7 @@
 exports[`should render react div DOM 1`] = `
 <div
   class="div-class"
+  style="color:white;"
 >
   <span
     class="span-class"
